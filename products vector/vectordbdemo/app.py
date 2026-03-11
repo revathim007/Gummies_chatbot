@@ -1,19 +1,20 @@
+import os
 from flask import Flask, render_template, request, jsonify
 import chromadb
 from chromadb.utils import embedding_functions
-import os
 from dotenv import load_dotenv
 from chatbot import GummyBot
 
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(BASE_DIR, ".env"))
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder=os.path.join(BASE_DIR, "templates"))
 
 # Initialize GummyBot
 bot = GummyBot()
 
 # Original Search Collection for traditional search
-client = chromadb.PersistentClient(path="./chroma_db")
+client = chromadb.PersistentClient(path=os.path.join(BASE_DIR, "chroma_db"))
 openai_key = os.getenv("OPENAI_API_KEY")
 if openai_key and "sk-" in openai_key:
     search_emb_fn = embedding_functions.OpenAIEmbeddingFunction(
