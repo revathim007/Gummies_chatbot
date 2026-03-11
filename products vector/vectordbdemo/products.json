@@ -1,0 +1,57 @@
+[
+    {
+        "id": "prod_001",
+        "product name": "Vitamin C Immunity Gummies",
+        "category": "Immunity",
+        "flavor": "Orange Burst",
+        "price": "€19.99",
+        "benefits": "Boosts immune system, high in antioxidants, supports skin health.",
+        "ingredients": "Vitamin C, Zinc, Rosehip Extract, Pectin, Natural Orange Flavor.",
+        "stock availability": "In Stock",
+        "image_url": "https://img.freepik.com/free-photo/colorful-gummy-bears-white-background_23-2148118023.jpg"
+    },
+    {
+        "id": "prod_002",
+        "product name": "Deep Sleep Melatonin Gummies",
+        "category": "Sleep",
+        "flavor": "Midnight Berry",
+        "price": "€22.50",
+        "benefits": "Helps you fall asleep faster, improves sleep quality, non-habit forming.",
+        "ingredients": "Melatonin, L-Theanine, Chamomile, Lemon Balm, Passionflower.",
+        "stock availability": "In Stock",
+        "image_url": "https://img.freepik.com/free-photo/sweet-jelly-gummy-bears_23-2148118020.jpg"
+    },
+    {
+        "id": "prod_003",
+        "product name": "Biotin Beauty Glow Gummies",
+        "category": "Beauty",
+        "flavor": "Strawberry Bliss",
+        "price": "€24.99",
+        "benefits": "Supports hair growth, strengthens nails, promotes radiant skin.",
+        "ingredients": "Biotin (5000mcg), Vitamin E, Vitamin C, Bamboo Extract.",
+        "stock availability": "In Stock",
+        "image_url": "https://img.freepik.com/free-photo/gummy-bears-candy_23-2148118032.jpg"
+    },
+    {
+        "id": "prod_004",
+        "product name": "Focus & Energy Gummies",
+        "category": "Energy",
+        "flavor": "Zesty Lemon",
+        "price": "€21.00",
+        "benefits": "Natural energy boost, improves mental clarity, reduces brain fog.",
+        "ingredients": "Caffeine (from Green Tea), Vitamin B12, Ginseng, Taurine.",
+        "stock availability": "Low Stock",
+        "image_url": "https://img.freepik.com/free-photo/colorful-jelly-beans-candies_23-2148118029.jpg"
+    },
+    {
+        "id": "prod_005",
+        "product name": "Daily Multi-Vitamin Gummies",
+        "category": "Wellness",
+        "flavor": "Mixed Fruit",
+        "price": "€18.00",
+        "benefits": "Complete daily nutrition, supports overall health and vitality.",
+        "ingredients": "Vitamin A, B, C, D, E, Zinc, Iodine, Magnesium.",
+        "stock availability": "In Stock",
+        "image_url": "https://img.freepik.com/free-photo/colorful-gummy-candies_23-2148118031.jpg"
+    }
+]
